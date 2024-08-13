@@ -17,7 +17,7 @@
 
 ### Q1:
 when a transaction reads the same set of rows twice but gets different data each time. For example, suppose transaction 1 reads some rows. Transaction 2 updates or deletes these rows and commits the **update** or **delete**. If transaction 1 rereads these rows, it retrieves different set of rows?
-### 	A: phanton
+### 	A: Non-repeatable read
 
    
 ----
